@@ -16,23 +16,23 @@ $EndDescr
 $Comp
 L power:GND #PWR0101
 U 1 1 5FF798D9
-P 8100 10600
-F 0 "#PWR0101" H 8100 10650 20  0001 C CNN
-F 1 "GND" H 8050 10450 30  0000 L CNN
-F 2 "" H 8100 10600 60  0000 C CNN
-F 3 "" H 8100 10600 60  0000 C CNN
-	1    8100 10600
+P 7900 10600
+F 0 "#PWR0101" H 7900 10650 20  0001 C CNN
+F 1 "GND" H 7850 10450 30  0000 L CNN
+F 2 "" H 7900 10600 60  0000 C CNN
+F 3 "" H 7900 10600 60  0000 C CNN
+	1    7900 10600
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:SW_PUSH-keyboard_parts SW1
+L Switch:SW_Push SW1
 U 1 1 5FF7B485
-P 7800 10600
-F 0 "SW1" H 7800 10855 50  0000 C CNN
-F 1 "SW_PUSH" H 7800 10764 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 7800 10600 60  0001 C CNN
-F 3 "" H 7800 10600 60  0000 C CNN
-	1    7800 10600
+P 7700 10600
+F 0 "SW1" H 7700 10855 50  0000 C CNN
+F 1 "SW_PUSH" H 7700 10764 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 7700 10600 60  0001 C CNN
+F 3 "" H 7700 10600 60  0000 C CNN
+	1    7700 10600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -58,7 +58,7 @@ F 3 "" H 5500 10500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K1
+L Switch:SW_Push K1
 U 1 1 5FFF88E4
 P 2500 1750
 F 0 "K1" H 2500 1983 60  0000 C CNN
@@ -82,7 +82,7 @@ $EndComp
 Wire Wire Line
 	2200 1750 2200 1850
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K3
+L Switch:SW_Push K3
 U 1 1 60007D58
 P 2500 3250
 F 0 "K3" H 2500 3483 60  0000 C CNN
@@ -104,7 +104,7 @@ F 3 "~" H 2200 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K4
+L Switch:SW_Push K4
 U 1 1 600100B2
 P 2500 4000
 F 0 "K4" H 2500 4233 60  0000 C CNN
@@ -126,7 +126,7 @@ F 3 "~" H 2200 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K5
+L Switch:SW_Push K5
 U 1 1 600115C4
 P 2500 4750
 F 0 "K5" H 2500 4983 60  0000 C CNN
@@ -156,7 +156,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 4750 2200 4850
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K6
+L Switch:SW_Push K6
 U 1 1 6002578F
 P 3350 1750
 F 0 "K6" H 3350 1983 60  0000 C CNN
@@ -180,7 +180,7 @@ $EndComp
 Wire Wire Line
 	3050 1750 3050 1850
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K8
+L Switch:SW_Push K8
 U 1 1 6002D14E
 P 3350 3250
 F 0 "K8" H 3350 3483 60  0000 C CNN
@@ -191,7 +191,7 @@ F 3 "" H 3350 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K9
+L Switch:SW_Push K9
 U 1 1 6002DFB2
 P 3350 4750
 F 0 "K9" H 3350 4983 60  0000 C CNN
@@ -206,7 +206,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 3250 3050 3350
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K10
+L Switch:SW_Push K10
 U 1 1 5FFF6DD3
 P 4200 1750
 F 0 "K10" H 4200 1983 60  0000 C CNN
@@ -217,7 +217,7 @@ F 3 "" H 4200 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K15
+L Switch:SW_Push K15
 U 1 1 5FFF7C2C
 P 5050 1750
 F 0 "K15" H 5050 1983 60  0000 C CNN
@@ -228,7 +228,7 @@ F 3 "" H 5050 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K19
+L Switch:SW_Push K19
 U 1 1 5FFF8B5B
 P 5900 1750
 F 0 "K19" H 5900 1983 60  0000 C CNN
@@ -239,7 +239,7 @@ F 3 "" H 5900 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K23
+L Switch:SW_Push K23
 U 1 1 5FFFAC1A
 P 6750 1750
 F 0 "K23" H 6750 1983 60  0000 C CNN
@@ -250,7 +250,7 @@ F 3 "" H 6750 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K27
+L Switch:SW_Push K27
 U 1 1 5FFFB6BC
 P 7600 1750
 F 0 "K27" H 7600 1983 60  0000 C CNN
@@ -261,7 +261,7 @@ F 3 "" H 7600 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K32
+L Switch:SW_Push K32
 U 1 1 5FFFC19F
 P 8450 1750
 F 0 "K32" H 8450 1983 60  0000 C CNN
@@ -272,7 +272,7 @@ F 3 "" H 8450 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K36
+L Switch:SW_Push K36
 U 1 1 5FFFCF66
 P 9300 1750
 F 0 "K36" H 9300 1983 60  0000 C CNN
@@ -283,7 +283,7 @@ F 3 "" H 9300 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K40
+L Switch:SW_Push K40
 U 1 1 5FFFDD3C
 P 10150 1750
 F 0 "K40" H 10150 1983 60  0000 C CNN
@@ -294,7 +294,7 @@ F 3 "" H 10150 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K44
+L Switch:SW_Push K44
 U 1 1 5FFFE630
 P 11000 1750
 F 0 "K44" H 11000 1983 60  0000 C CNN
@@ -305,7 +305,7 @@ F 3 "" H 11000 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K49
+L Switch:SW_Push K49
 U 1 1 600157DA
 P 11850 1750
 F 0 "K49" H 11850 1983 60  0000 C CNN
@@ -338,7 +338,7 @@ F 3 "~" H 8600 9600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K54
+L Switch:SW_Push K54
 U 1 1 5FFE1757
 P 12700 1750
 F 0 "K54" H 12700 1983 60  0000 C CNN
@@ -349,7 +349,7 @@ F 3 "" H 12700 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K58
+L Switch:SW_Push K58
 U 1 1 5FFE28C2
 P 13550 1750
 F 0 "K58" H 13550 1983 60  0000 C CNN
@@ -360,7 +360,7 @@ F 3 "" H 13550 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K11
+L Switch:SW_Push K11
 U 1 1 5FFE3ACD
 P 4200 2500
 F 0 "K11" H 4200 2733 60  0000 C CNN
@@ -371,7 +371,7 @@ F 3 "" H 4200 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K12
+L Switch:SW_Push K12
 U 1 1 5FFE4657
 P 4200 3250
 F 0 "K12" H 4200 3483 60  0000 C CNN
@@ -382,7 +382,7 @@ F 3 "" H 4200 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K13
+L Switch:SW_Push K13
 U 1 1 5FFE4C2B
 P 4200 4000
 F 0 "K13" H 4200 4233 60  0000 C CNN
@@ -393,7 +393,7 @@ F 3 "" H 4200 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K14
+L Switch:SW_Push K14
 U 1 1 5FFE538F
 P 4200 4750
 F 0 "K14" H 4200 4983 60  0000 C CNN
@@ -404,7 +404,7 @@ F 3 "" H 4200 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K16
+L Switch:SW_Push K16
 U 1 1 5FFE5C68
 P 5050 2500
 F 0 "K16" H 5050 2733 60  0000 C CNN
@@ -415,7 +415,7 @@ F 3 "" H 5050 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K18
+L Switch:SW_Push K18
 U 1 1 5FFE723F
 P 5050 4000
 F 0 "K18" H 5050 4233 60  0000 C CNN
@@ -426,7 +426,7 @@ F 3 "" H 5050 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K20
+L Switch:SW_Push K20
 U 1 1 5FFE80C1
 P 5900 2500
 F 0 "K20" H 5900 2733 60  0000 C CNN
@@ -437,7 +437,7 @@ F 3 "" H 5900 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K21
+L Switch:SW_Push K21
 U 1 1 5FFE914F
 P 5900 3250
 F 0 "K21" H 5900 3483 60  0000 C CNN
@@ -448,7 +448,7 @@ F 3 "" H 5900 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K22
+L Switch:SW_Push K22
 U 1 1 5FFE99C6
 P 5900 4000
 F 0 "K22" H 5900 4233 60  0000 C CNN
@@ -459,7 +459,7 @@ F 3 "" H 5900 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K24
+L Switch:SW_Push K24
 U 1 1 5FFEBD92
 P 6750 2500
 F 0 "K24" H 6750 2733 60  0000 C CNN
@@ -470,7 +470,7 @@ F 3 "" H 6750 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K28
+L Switch:SW_Push K28
 U 1 1 5FFEC5D5
 P 7600 2500
 F 0 "K28" H 7600 2733 60  0000 C CNN
@@ -481,7 +481,7 @@ F 3 "" H 7600 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K33
+L Switch:SW_Push K33
 U 1 1 5FFECCB7
 P 8450 2500
 F 0 "K33" H 8450 2733 60  0000 C CNN
@@ -492,7 +492,7 @@ F 3 "" H 8450 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K37
+L Switch:SW_Push K37
 U 1 1 5FFED2D6
 P 9300 2500
 F 0 "K37" H 9300 2733 60  0000 C CNN
@@ -503,7 +503,7 @@ F 3 "" H 9300 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K41
+L Switch:SW_Push K41
 U 1 1 5FFED9C7
 P 10150 2500
 F 0 "K41" H 10150 2733 60  0000 C CNN
@@ -514,7 +514,7 @@ F 3 "" H 10150 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K45
+L Switch:SW_Push K45
 U 1 1 5FFEE185
 P 11000 2500
 F 0 "K45" H 11000 2733 60  0000 C CNN
@@ -525,7 +525,7 @@ F 3 "" H 11000 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K25
+L Switch:SW_Push K25
 U 1 1 5FFEE94D
 P 6750 3250
 F 0 "K25" H 6750 3483 60  0000 C CNN
@@ -536,7 +536,7 @@ F 3 "" H 6750 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K29
+L Switch:SW_Push K29
 U 1 1 5FFEF151
 P 7600 3250
 F 0 "K29" H 7600 3483 60  0000 C CNN
@@ -547,7 +547,7 @@ F 3 "" H 7600 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K34
+L Switch:SW_Push K34
 U 1 1 5FFEFEDD
 P 8450 3250
 F 0 "K34" H 8450 3483 60  0000 C CNN
@@ -558,7 +558,7 @@ F 3 "" H 8450 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K38
+L Switch:SW_Push K38
 U 1 1 5FFF072C
 P 9300 3250
 F 0 "K38" H 9300 3483 60  0000 C CNN
@@ -569,7 +569,7 @@ F 3 "" H 9300 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K42
+L Switch:SW_Push K42
 U 1 1 5FFF0EEF
 P 10150 3250
 F 0 "K42" H 10150 3483 60  0000 C CNN
@@ -580,7 +580,7 @@ F 3 "" H 10150 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K46
+L Switch:SW_Push K46
 U 1 1 5FFF14BE
 P 11000 3250
 F 0 "K46" H 11000 3483 60  0000 C CNN
@@ -591,7 +591,7 @@ F 3 "" H 11000 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K26
+L Switch:SW_Push K26
 U 1 1 5FFFE78E
 P 6750 4000
 F 0 "K26" H 6750 4233 60  0000 C CNN
@@ -602,7 +602,7 @@ F 3 "" H 6750 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K30
+L Switch:SW_Push K30
 U 1 1 5FFFE794
 P 7600 4000
 F 0 "K30" H 7600 4233 60  0000 C CNN
@@ -613,7 +613,7 @@ F 3 "" H 7600 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K35
+L Switch:SW_Push K35
 U 1 1 5FFFE79A
 P 8450 4000
 F 0 "K35" H 8450 4233 60  0000 C CNN
@@ -624,7 +624,7 @@ F 3 "" H 8450 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K39
+L Switch:SW_Push K39
 U 1 1 5FFFE7A0
 P 9300 4000
 F 0 "K39" H 9300 4233 60  0000 C CNN
@@ -635,7 +635,7 @@ F 3 "" H 9300 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K43
+L Switch:SW_Push K43
 U 1 1 5FFFE7A6
 P 10150 4000
 F 0 "K43" H 10150 4233 60  0000 C CNN
@@ -646,7 +646,7 @@ F 3 "" H 10150 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K31
+L Switch:SW_Push K31
 U 1 1 5FFFE7B2
 P 7600 4750
 F 0 "K31" H 7600 4983 60  0000 C CNN
@@ -657,7 +657,7 @@ F 3 "" H 7600 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K50
+L Switch:SW_Push K50
 U 1 1 60010E75
 P 11850 2500
 F 0 "K50" H 11850 2733 60  0000 C CNN
@@ -668,7 +668,7 @@ F 3 "" H 11850 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K55
+L Switch:SW_Push K55
 U 1 1 60010E7B
 P 12700 2500
 F 0 "K55" H 12700 2733 60  0000 C CNN
@@ -679,7 +679,7 @@ F 3 "" H 12700 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K59
+L Switch:SW_Push K59
 U 1 1 60010E81
 P 13550 2500
 F 0 "K59" H 13550 2733 60  0000 C CNN
@@ -690,7 +690,7 @@ F 3 "" H 13550 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K51
+L Switch:SW_Push K51
 U 1 1 60010E93
 P 11850 3250
 F 0 "K51" H 11850 3483 60  0000 C CNN
@@ -701,7 +701,7 @@ F 3 "" H 11850 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K60
+L Switch:SW_Push K60
 U 1 1 60010E9F
 P 13550 3250
 F 0 "K60" H 13550 3483 60  0000 C CNN
@@ -712,7 +712,7 @@ F 3 "" H 13550 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K64
+L Switch:SW_Push K64
 U 1 1 60010EA5
 P 14400 3250
 F 0 "K64" H 14400 3483 60  0000 C CNN
@@ -723,7 +723,7 @@ F 3 "" H 14400 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K47
+L Switch:SW_Push K47
 U 1 1 6002769A
 P 11000 4000
 F 0 "K47" H 11000 4233 60  0000 C CNN
@@ -734,7 +734,7 @@ F 3 "" H 11000 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K52
+L Switch:SW_Push K52
 U 1 1 600276A0
 P 11850 4000
 F 0 "K52" H 11850 4233 60  0000 C CNN
@@ -745,7 +745,7 @@ F 3 "" H 11850 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K61
+L Switch:SW_Push K61
 U 1 1 600276AC
 P 13550 4000
 F 0 "K61" H 13550 4233 60  0000 C CNN
@@ -756,7 +756,7 @@ F 3 "" H 13550 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K65
+L Switch:SW_Push K65
 U 1 1 600276B2
 P 14400 4000
 F 0 "K65" H 14400 4233 60  0000 C CNN
@@ -767,7 +767,7 @@ F 3 "" H 14400 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K48
+L Switch:SW_Push K48
 U 1 1 600276B8
 P 11000 4750
 F 0 "K48" H 11000 4983 60  0000 C CNN
@@ -778,7 +778,7 @@ F 3 "" H 11000 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K57
+L Switch:SW_Push K57
 U 1 1 600276C4
 P 12700 4750
 F 0 "K57" H 12700 4983 60  0000 C CNN
@@ -789,7 +789,7 @@ F 3 "" H 12700 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K62
+L Switch:SW_Push K62
 U 1 1 600276CA
 P 13550 4750
 F 0 "K62" H 13550 4983 60  0000 C CNN
@@ -800,7 +800,7 @@ F 3 "" H 13550 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K56
+L Switch:SW_Push K56
 U 1 1 6002B0F3
 P 12700 4000
 F 0 "K56" H 12700 4233 60  0000 C CNN
@@ -811,7 +811,7 @@ F 3 "" H 12700 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K53
+L Switch:SW_Push K53
 U 1 1 6002B8F2
 P 11850 4750
 F 0 "K53" H 11850 4983 60  0000 C CNN
@@ -1351,15 +1351,6 @@ F 3 "~" H 14100 4250 50  0001 C CNN
 	1    14100 4250
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2800 1300 2800 1750
-Connection ~ 2800 1750
-Wire Wire Line
-	2800 3250 2800 4000
-Wire Wire Line
-	2800 4000 2800 4750
-Connection ~ 2800 4000
-Connection ~ 2800 3250
 $Comp
 L Device:D D28
 U 1 1 600CE816
@@ -1426,43 +1417,6 @@ F 3 "~" H 2200 2750 50  0001 C CNN
 	1    2200 2750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3650 1300 3650 1750
-Connection ~ 3650 1750
-Connection ~ 3650 3250
-Wire Wire Line
-	3650 3250 3650 4750
-Wire Wire Line
-	4500 1300 4500 1750
-Connection ~ 4500 1750
-Wire Wire Line
-	4500 1750 4500 2500
-Connection ~ 4500 2500
-Wire Wire Line
-	4500 2500 4500 3250
-Connection ~ 4500 3250
-Wire Wire Line
-	4500 3250 4500 4000
-Connection ~ 4500 4000
-Wire Wire Line
-	4500 4000 4500 4750
-Wire Wire Line
-	5350 1300 5350 1750
-Connection ~ 5350 1750
-Wire Wire Line
-	5350 1750 5350 2500
-Connection ~ 5350 2500
-Wire Wire Line
-	6200 1300 6200 1750
-Connection ~ 6200 1750
-Wire Wire Line
-	6200 1750 6200 2500
-Connection ~ 6200 2500
-Wire Wire Line
-	6200 2500 6200 3250
-Connection ~ 6200 3250
-Wire Wire Line
-	6200 3250 6200 4000
 Wire Wire Line
 	3900 4000 3900 4100
 Wire Wire Line
@@ -1575,120 +1529,6 @@ Wire Wire Line
 	13250 3250 13250 3350
 Wire Wire Line
 	14100 3350 14100 3250
-Wire Wire Line
-	7050 1300 7050 1750
-Connection ~ 7050 1750
-Wire Wire Line
-	7050 1750 7050 2500
-Connection ~ 7050 2500
-Wire Wire Line
-	7050 2500 7050 3250
-Connection ~ 7050 3250
-Wire Wire Line
-	7050 3250 7050 4000
-Wire Wire Line
-	7900 1300 7900 1750
-Connection ~ 7900 1750
-Wire Wire Line
-	7900 1750 7900 2500
-Connection ~ 7900 2500
-Wire Wire Line
-	7900 2500 7900 3250
-Connection ~ 7900 3250
-Wire Wire Line
-	7900 3250 7900 4000
-Connection ~ 7900 4000
-Wire Wire Line
-	7900 4000 7900 4750
-Wire Wire Line
-	10450 1300 10450 1750
-Connection ~ 10450 1750
-Wire Wire Line
-	10450 1750 10450 2500
-Connection ~ 10450 2500
-Wire Wire Line
-	10450 2500 10450 3250
-Connection ~ 10450 3250
-Wire Wire Line
-	10450 3250 10450 4000
-Wire Wire Line
-	9600 1300 9600 1750
-Connection ~ 9600 1750
-Wire Wire Line
-	9600 1750 9600 2500
-Connection ~ 9600 2500
-Wire Wire Line
-	9600 2500 9600 3250
-Connection ~ 9600 3250
-Wire Wire Line
-	9600 3250 9600 4000
-Wire Wire Line
-	8750 1300 8750 1750
-Connection ~ 8750 1750
-Wire Wire Line
-	8750 1750 8750 2500
-Connection ~ 8750 2500
-Wire Wire Line
-	8750 2500 8750 3250
-Connection ~ 8750 3250
-Wire Wire Line
-	8750 3250 8750 4000
-Wire Wire Line
-	11300 1300 11300 1750
-Connection ~ 11300 1750
-Wire Wire Line
-	11300 1750 11300 2500
-Connection ~ 11300 2500
-Wire Wire Line
-	11300 2500 11300 3250
-Connection ~ 11300 3250
-Wire Wire Line
-	11300 3250 11300 4000
-Connection ~ 11300 4000
-Wire Wire Line
-	11300 4000 11300 4750
-Wire Wire Line
-	12150 1300 12150 1750
-Connection ~ 12150 1750
-Wire Wire Line
-	12150 1750 12150 2500
-Connection ~ 12150 2500
-Wire Wire Line
-	12150 2500 12150 3250
-Connection ~ 12150 3250
-Wire Wire Line
-	12150 3250 12150 4000
-Wire Wire Line
-	13000 1300 13000 1750
-Connection ~ 13000 1750
-Wire Wire Line
-	13000 1750 13000 2500
-Connection ~ 13000 2500
-Wire Wire Line
-	13000 2500 13000 4000
-Connection ~ 13000 4000
-Wire Wire Line
-	13000 4000 13000 4750
-Wire Wire Line
-	13850 1300 13850 1750
-Connection ~ 13850 1750
-Wire Wire Line
-	13850 1750 13850 2500
-Connection ~ 13850 2500
-Wire Wire Line
-	13850 2500 13850 3250
-Connection ~ 13850 3250
-Wire Wire Line
-	13850 3250 13850 4000
-Connection ~ 13850 4000
-Wire Wire Line
-	13850 4000 13850 4750
-Connection ~ 14700 3250
-Wire Wire Line
-	14700 3250 14700 4000
-Connection ~ 14700 4000
-Wire Wire Line
-	14700 4000 14700 4750
 $Comp
 L Connector:USB_C_Receptacle_USB2.0 J1
 U 1 1 5FF9E2DB
@@ -1700,13 +1540,8 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 10350 7
 	1    10200 7350
 	1    0    0    -1  
 $EndComp
-Connection ~ 2800 2500
-Wire Wire Line
-	2800 2500 2800 3250
-Wire Wire Line
-	2800 1750 2800 2500
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K2
+L Switch:SW_Push K2
 U 1 1 6000597D
 P 2500 2500
 F 0 "K2" H 2500 2733 60  0000 C CNN
@@ -1716,13 +1551,8 @@ F 3 "" H 2500 2500 60  0000 C CNN
 	1    2500 2500
 	1    0    0    -1  
 $EndComp
-Connection ~ 3650 2500
-Wire Wire Line
-	3650 2500 3650 3250
-Wire Wire Line
-	3650 1750 3650 2500
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K7
+L Switch:SW_Push K7
 U 1 1 6002C67F
 P 3350 2500
 F 0 "K7" H 3350 2733 60  0000 C CNN
@@ -1732,13 +1562,8 @@ F 3 "" H 3350 2500 60  0000 C CNN
 	1    3350 2500
 	1    0    0    -1  
 $EndComp
-Connection ~ 5350 3250
-Wire Wire Line
-	5350 3250 5350 4000
-Wire Wire Line
-	5350 2500 5350 3250
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K17
+L Switch:SW_Push K17
 U 1 1 5FFE6B7B
 P 5050 3250
 F 0 "K17" H 5050 3483 60  0000 C CNN
@@ -1773,7 +1598,7 @@ F 3 "~" H 14100 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K66
+L Switch:SW_Push K66
 U 1 1 600276D0
 P 14400 4750
 F 0 "K66" H 14400 4983 60  0000 C CNN
@@ -1891,13 +1716,8 @@ Wire Wire Line
 Wire Wire Line
 	14500 1750 14700 1750
 Connection ~ 14700 1750
-Wire Wire Line
-	14700 1750 14700 2500
-Wire Wire Line
-	14700 2500 14700 3250
-Connection ~ 14700 2500
 $Comp
-L keyboard-rescue:KEYSW-keyboard_parts K63
+L Switch:SW_Push K63
 U 1 1 60010E87
 P 14400 2500
 F 0 "K63" H 14400 2733 60  0000 C CNN
@@ -2475,9 +2295,6 @@ $EndComp
 Wire Wire Line
 	7300 5150 10700 5150
 Wire Wire Line
-	12150 4000 12150 4750
-Connection ~ 12150 4000
-Wire Wire Line
 	10700 5150 11550 5150
 Connection ~ 11550 5150
 Wire Wire Line
@@ -2588,4 +2405,447 @@ Wire Wire Line
 	8000 9800 8000 9700
 Wire Wire Line
 	8000 9500 8000 9400
+Wire Wire Line
+	2800 1300 2800 1750
+Wire Wire Line
+	3650 1300 3650 1750
+Wire Wire Line
+	4500 1300 4500 1750
+Wire Wire Line
+	5350 1300 5350 1750
+Wire Wire Line
+	6200 1300 6200 1750
+Wire Wire Line
+	7050 1300 7050 1750
+Wire Wire Line
+	7900 1300 7900 1750
+Wire Wire Line
+	10450 1300 10450 1750
+Wire Wire Line
+	9600 1300 9600 1750
+Wire Wire Line
+	8750 1300 8750 1750
+Wire Wire Line
+	12150 1300 12150 1750
+Wire Wire Line
+	13000 1300 13000 1750
+Wire Wire Line
+	13850 1300 13850 1750
+Wire Wire Line
+	14700 1750 14700 2500
+Wire Wire Line
+	14700 2500 14600 2500
+Connection ~ 14700 2500
+Wire Wire Line
+	14700 2500 14700 3250
+Wire Wire Line
+	14100 2500 14200 2500
+Wire Wire Line
+	14100 3250 14200 3250
+Wire Wire Line
+	14600 3250 14700 3250
+Connection ~ 14700 3250
+Wire Wire Line
+	14700 3250 14700 4000
+Wire Wire Line
+	14700 4000 14600 4000
+Connection ~ 14700 4000
+Wire Wire Line
+	14700 4000 14700 4750
+Wire Wire Line
+	14100 4000 14200 4000
+Wire Wire Line
+	14700 4750 14600 4750
+Wire Wire Line
+	14100 4750 14200 4750
+Wire Wire Line
+	13850 1750 13750 1750
+Connection ~ 13850 1750
+Wire Wire Line
+	13850 1750 13850 2500
+Wire Wire Line
+	13250 1750 13350 1750
+Wire Wire Line
+	13850 2500 13750 2500
+Connection ~ 13850 2500
+Wire Wire Line
+	13850 2500 13850 3250
+Wire Wire Line
+	13350 2500 13250 2500
+Wire Wire Line
+	13850 3250 13750 3250
+Connection ~ 13850 3250
+Wire Wire Line
+	13850 3250 13850 4000
+Wire Wire Line
+	13350 3250 13250 3250
+Wire Wire Line
+	13850 4000 13750 4000
+Connection ~ 13850 4000
+Wire Wire Line
+	13850 4000 13850 4750
+Wire Wire Line
+	13350 4000 13250 4000
+Wire Wire Line
+	13850 4750 13750 4750
+Wire Wire Line
+	13350 4750 13250 4750
+Wire Wire Line
+	13000 4750 12900 4750
+Wire Wire Line
+	12500 4750 12400 4750
+Wire Wire Line
+	12400 4000 12500 4000
+Wire Wire Line
+	12900 4000 13000 4000
+Connection ~ 13000 4000
+Wire Wire Line
+	13000 4000 13000 4750
+Wire Wire Line
+	12400 2500 12500 2500
+Wire Wire Line
+	12900 2500 13000 2500
+Connection ~ 13000 2500
+Wire Wire Line
+	13000 2500 13000 4000
+Wire Wire Line
+	12400 1750 12500 1750
+Wire Wire Line
+	12900 1750 13000 1750
+Connection ~ 13000 1750
+Wire Wire Line
+	13000 1750 13000 2500
+Wire Wire Line
+	12150 1750 12050 1750
+Connection ~ 12150 1750
+Wire Wire Line
+	12150 1750 12150 2500
+Wire Wire Line
+	11550 1750 11650 1750
+Wire Wire Line
+	11550 2500 11650 2500
+Wire Wire Line
+	12050 2500 12150 2500
+Connection ~ 12150 2500
+Wire Wire Line
+	12150 2500 12150 3250
+Wire Wire Line
+	12150 3250 12050 3250
+Connection ~ 12150 3250
+Wire Wire Line
+	12150 3250 12150 4000
+Wire Wire Line
+	11550 3250 11650 3250
+Wire Wire Line
+	12150 4000 12050 4000
+Connection ~ 12150 4000
+Wire Wire Line
+	12150 4000 12150 4750
+Wire Wire Line
+	11650 4000 11550 4000
+Wire Wire Line
+	12150 4750 12050 4750
+Wire Wire Line
+	11650 4750 11550 4750
+Wire Wire Line
+	11300 4750 11200 4750
+Wire Wire Line
+	10800 4750 10700 4750
+Wire Wire Line
+	11300 1300 11300 1750
+Wire Wire Line
+	11300 4000 11200 4000
+Connection ~ 11300 4000
+Wire Wire Line
+	11300 4000 11300 4750
+Wire Wire Line
+	10700 4000 10800 4000
+Wire Wire Line
+	11300 3250 11200 3250
+Connection ~ 11300 3250
+Wire Wire Line
+	11300 3250 11300 4000
+Wire Wire Line
+	10700 3250 10800 3250
+Wire Wire Line
+	11300 2500 11200 2500
+Connection ~ 11300 2500
+Wire Wire Line
+	11300 2500 11300 3250
+Wire Wire Line
+	10700 2500 10800 2500
+Wire Wire Line
+	11300 1750 11200 1750
+Connection ~ 11300 1750
+Wire Wire Line
+	11300 1750 11300 2500
+Wire Wire Line
+	10800 1750 10700 1750
+Wire Wire Line
+	2300 1750 2200 1750
+Wire Wire Line
+	2800 1750 2700 1750
+Connection ~ 2800 1750
+Wire Wire Line
+	2800 1750 2800 2500
+Wire Wire Line
+	3150 1750 3050 1750
+Wire Wire Line
+	3650 1750 3550 1750
+Connection ~ 3650 1750
+Wire Wire Line
+	3650 1750 3650 2500
+Wire Wire Line
+	4000 1750 3900 1750
+Wire Wire Line
+	4500 1750 4400 1750
+Connection ~ 4500 1750
+Wire Wire Line
+	4500 1750 4500 2500
+Wire Wire Line
+	4850 1750 4750 1750
+Wire Wire Line
+	5350 1750 5250 1750
+Connection ~ 5350 1750
+Wire Wire Line
+	5350 1750 5350 2500
+Wire Wire Line
+	5700 1750 5600 1750
+Wire Wire Line
+	6100 1750 6200 1750
+Connection ~ 6200 1750
+Wire Wire Line
+	6200 1750 6200 2500
+Wire Wire Line
+	6450 1750 6550 1750
+Wire Wire Line
+	6950 1750 7050 1750
+Connection ~ 7050 1750
+Wire Wire Line
+	7050 1750 7050 2500
+Wire Wire Line
+	7300 1750 7400 1750
+Wire Wire Line
+	7800 1750 7900 1750
+Connection ~ 7900 1750
+Wire Wire Line
+	7900 1750 7900 2500
+Wire Wire Line
+	10450 1750 10350 1750
+Connection ~ 10450 1750
+Wire Wire Line
+	10450 1750 10450 2500
+Wire Wire Line
+	9950 1750 9850 1750
+Wire Wire Line
+	9500 1750 9600 1750
+Connection ~ 9600 1750
+Wire Wire Line
+	9600 1750 9600 2500
+Wire Wire Line
+	9100 1750 9000 1750
+Wire Wire Line
+	8750 1750 8650 1750
+Connection ~ 8750 1750
+Wire Wire Line
+	8750 1750 8750 2500
+Wire Wire Line
+	8250 1750 8150 1750
+Wire Wire Line
+	10450 2500 10350 2500
+Connection ~ 10450 2500
+Wire Wire Line
+	10450 2500 10450 3250
+Wire Wire Line
+	9950 2500 9850 2500
+Wire Wire Line
+	10450 3250 10350 3250
+Connection ~ 10450 3250
+Wire Wire Line
+	10450 3250 10450 4000
+Wire Wire Line
+	9950 3250 9850 3250
+Wire Wire Line
+	10450 4000 10350 4000
+Wire Wire Line
+	9950 4000 9850 4000
+Wire Wire Line
+	9600 2500 9500 2500
+Connection ~ 9600 2500
+Wire Wire Line
+	9600 2500 9600 3250
+Wire Wire Line
+	9100 2500 9000 2500
+Wire Wire Line
+	9600 3250 9500 3250
+Connection ~ 9600 3250
+Wire Wire Line
+	9600 3250 9600 4000
+Wire Wire Line
+	9100 3250 9000 3250
+Wire Wire Line
+	9600 4000 9500 4000
+Wire Wire Line
+	9100 4000 9000 4000
+Wire Wire Line
+	8750 2500 8650 2500
+Connection ~ 8750 2500
+Wire Wire Line
+	8750 2500 8750 3250
+Wire Wire Line
+	8250 2500 8150 2500
+Wire Wire Line
+	8750 3250 8650 3250
+Connection ~ 8750 3250
+Wire Wire Line
+	8750 3250 8750 4000
+Wire Wire Line
+	8250 3250 8150 3250
+Wire Wire Line
+	8750 4000 8650 4000
+Wire Wire Line
+	8250 4000 8150 4000
+Wire Wire Line
+	7900 4000 7800 4000
+Connection ~ 7900 4000
+Wire Wire Line
+	7900 4000 7900 4750
+Wire Wire Line
+	7400 4000 7300 4000
+Wire Wire Line
+	7900 3250 7800 3250
+Connection ~ 7900 3250
+Wire Wire Line
+	7900 3250 7900 4000
+Wire Wire Line
+	7400 3250 7300 3250
+Wire Wire Line
+	7900 2500 7800 2500
+Connection ~ 7900 2500
+Wire Wire Line
+	7900 2500 7900 3250
+Wire Wire Line
+	7400 2500 7300 2500
+Wire Wire Line
+	7050 4000 6950 4000
+Wire Wire Line
+	6550 4000 6450 4000
+Wire Wire Line
+	6450 3250 6550 3250
+Wire Wire Line
+	6950 3250 7050 3250
+Connection ~ 7050 3250
+Wire Wire Line
+	7050 3250 7050 4000
+Wire Wire Line
+	6950 2500 7050 2500
+Connection ~ 7050 2500
+Wire Wire Line
+	7050 2500 7050 3250
+Wire Wire Line
+	6550 2500 6450 2500
+Wire Wire Line
+	6200 2500 6100 2500
+Connection ~ 6200 2500
+Wire Wire Line
+	6200 2500 6200 3250
+Wire Wire Line
+	5700 2500 5600 2500
+Wire Wire Line
+	6200 3250 6100 3250
+Connection ~ 6200 3250
+Wire Wire Line
+	6200 3250 6200 4000
+Wire Wire Line
+	5700 3250 5600 3250
+Wire Wire Line
+	6200 4000 6100 4000
+Wire Wire Line
+	5700 4000 5600 4000
+Wire Wire Line
+	5350 4000 5250 4000
+Wire Wire Line
+	4850 4000 4750 4000
+Wire Wire Line
+	5350 3250 5250 3250
+Connection ~ 5350 3250
+Wire Wire Line
+	5350 3250 5350 4000
+Wire Wire Line
+	4850 3250 4750 3250
+Wire Wire Line
+	5350 2500 5250 2500
+Connection ~ 5350 2500
+Wire Wire Line
+	5350 2500 5350 3250
+Wire Wire Line
+	4850 2500 4750 2500
+Wire Wire Line
+	4500 2500 4400 2500
+Connection ~ 4500 2500
+Wire Wire Line
+	4500 2500 4500 3250
+Wire Wire Line
+	4000 2500 3900 2500
+Wire Wire Line
+	3650 2500 3550 2500
+Connection ~ 3650 2500
+Wire Wire Line
+	3650 2500 3650 3250
+Wire Wire Line
+	3150 2500 3050 2500
+Wire Wire Line
+	2800 2500 2700 2500
+Connection ~ 2800 2500
+Wire Wire Line
+	2800 2500 2800 3250
+Wire Wire Line
+	2300 2500 2200 2500
+Wire Wire Line
+	4500 3250 4400 3250
+Connection ~ 4500 3250
+Wire Wire Line
+	4500 3250 4500 4000
+Wire Wire Line
+	4000 3250 3900 3250
+Wire Wire Line
+	3650 3250 3550 3250
+Connection ~ 3650 3250
+Wire Wire Line
+	3650 3250 3650 4750
+Wire Wire Line
+	3150 3250 3050 3250
+Wire Wire Line
+	2800 3250 2700 3250
+Connection ~ 2800 3250
+Wire Wire Line
+	2800 3250 2800 4000
+Wire Wire Line
+	2300 3250 2200 3250
+Wire Wire Line
+	4500 4000 4400 4000
+Connection ~ 4500 4000
+Wire Wire Line
+	4500 4000 4500 4750
+Wire Wire Line
+	4000 4000 3900 4000
+Wire Wire Line
+	2800 4000 2700 4000
+Connection ~ 2800 4000
+Wire Wire Line
+	2800 4000 2800 4750
+Wire Wire Line
+	2300 4000 2200 4000
+Wire Wire Line
+	4500 4750 4400 4750
+Wire Wire Line
+	4000 4750 3900 4750
+Wire Wire Line
+	3650 4750 3550 4750
+Wire Wire Line
+	3150 4750 3050 4750
+Wire Wire Line
+	2800 4750 2700 4750
+Wire Wire Line
+	2300 4750 2200 4750
 $EndSCHEMATC
