@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name keyboard_parts)(type Legacy)(uri /Users/griffinsolimini/kicad_libraries/kicad_lib_tmk/keyboard_parts.lib)(options "")(descr ""))
+  (lib (name keyboard_parts)(type Legacy)(uri /Users/griffinsolimini/kicad_libraries/kicad_lib_tmk/keyboard_parts.lib)(options "")(descr "")(disabled))
   (lib (name 4xxx_IEEE)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/4xxx_IEEE.lib)(options "")(descr ""))
   (lib (name 74xGxx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/74xGxx.lib)(options "")(descr ""))
   (lib (name 74xx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/74xx.lib)(options "")(descr ""))
@@ -200,6 +200,8 @@
   (lib (name Triac_Thyristor)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Triac_Thyristor.lib)(options "")(descr ""))
   (lib (name Valve)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Valve.lib)(options "")(descr ""))
   (lib (name Video)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Video.lib)(options "")(descr ""))
-  (lib (name SSD1306_OLED-0.91-128x32)(type Legacy)(uri /Users/griffinsolimini/kicad_libraries/KiCad-SSD1306_OLED-0.91-128x32/SSD1306_OLED-0.91-128x32.lib)(options "")(descr ""))
+  (lib (name SSD1306_OLED-0.91-128x32)(type Legacy)(uri /Users/griffinsolimini/kicad_libraries/KiCad-SSD1306_OLED-0.91-128x32/SSD1306_OLED-0.91-128x32.lib)(options "")(descr "")(disabled))
   (lib (name oled)(type Legacy)(uri ${KIPRJMOD}/oled.lib)(options "")(descr ""))
+  (lib (name keyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/keyboard-rescue.lib)(options "")(descr "")(disabled))
+  (lib (name ATMEGA32U4-MU)(type Legacy)(uri ${KIPRJMOD}/ATMEGA32U4-MU/ATMEGA32U4-MU.lib)(options "")(descr ""))
 )
