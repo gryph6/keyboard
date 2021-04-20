@@ -2851,7 +2851,7 @@ F 3 "" H 14700 1200 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	14350 1200 14700 1200
-Text GLabel 13750 1100 0    50   Input ~ 0
+Text GLabel 13450 1100 0    50   Input ~ 0
 rowE
 Wire Wire Line
 	7900 5250 7800 5250
@@ -2911,4 +2911,15 @@ Text GLabel 14350 1300 2    50   Input ~ 0
 encA
 Text GLabel 8000 7750 2    50   Input ~ 0
 rowE
+$Comp
+L Device:D D68
+U 1 1 60846CBB
+P 13600 1100
+F 0 "D68" H 13600 1200 50  0000 R CNN
+F 1 "D" H 13550 1300 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 13600 1100 50  0001 C CNN
+F 3 "~" H 13600 1100 50  0001 C CNN
+	1    13600 1100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
